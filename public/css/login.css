@@ -1,0 +1,122 @@
+.login{
+    width: 300px;
+    margin: 0 auto;
+} 
+.login .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.login .container input{
+    width: 100%;
+    padding:5px;
+    border-color: var(--colorGrisClaro);
+    border-style: none;
+    color: var(--colorGrisOscuro);
+    font-style: italic;
+    
+   
+}
+.login button{
+    width: 100%;
+    background-color: var(--colorCeleste);
+    border-radius:  2px var(--colorCeleste);
+    margin-top: 30px;
+    padding: 5px;
+    border-color: var(--colorCeleste);
+    border-style: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.login button a{
+    color: white;
+    
+}
+
+/* Tablet */
+@media (min-width:768px){
+    .login{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .login .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content:flex-start;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .login .container input{
+        width: 100%;
+        padding:5px;
+        border-color: var(--colorGrisClaro);
+        border-style: none;
+        color: var(--colorGrisOscuro);
+        font-style: italic;
+        
+       
+    }
+    .login button{
+        width: 100%;
+        background-color: var(--colorCeleste);
+        border-radius:  2px var(--colorCeleste);
+        margin-top: 30px;
+        padding: 5px;
+        border-color: var(--colorCeleste);
+        border-style: none;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    .login button a{
+        color: white;
+        
+    }
+}
+
+/* Desktop */
+@media (min-width:1024px){
+    .login{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .login .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content:flex-start;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .login .container input{
+        width: 100%;
+        padding:5px;
+        border-color: var(--colorGrisClaro);
+        border-style: none;
+        color: var(--colorGrisOscuro);
+        font-style: italic;
+        
+       
+    }
+    .login button{
+        width: 100%;
+        background-color: var(--colorCeleste);
+        border-radius:  2px var(--colorCeleste);
+        margin-top: 30px;
+        padding: 5px;
+        border-color: var(--colorCeleste);
+        border-style: none;
+        border-radius: 3px;
+        margin-bottom: 20px;
+    }
+    .login button a{
+        color: white;
+        
+    }
+}

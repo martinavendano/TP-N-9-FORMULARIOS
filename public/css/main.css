@@ -1,0 +1,220 @@
+main{
+  width: 100%;
+  margin: 0 auto;
+
+}
+main section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    margin: 10px;
+    width: 100%;
+    
+}
+
+main .banner{
+    display: none;
+}
+main section article img{
+    width: 100%;
+}
+main section article .contenedor{
+   border-top: 1px solid var(--colorGrisClaro);
+   padding: 15px;
+   
+}
+main section  .contenedor{
+  display: flex;
+   flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: flex-start; 
+  flex-grow: 1;
+}
+main section .contenedor .camion{
+    display: flex;
+    order:1;
+    
+    justify-self: flex-end;
+} 
+main section article .camion i{
+    
+    font-size: 12px;
+    padding: 10px;
+    border-radius:50%;
+    border: 1px solid var(--colorVerde);
+    color: var(--colorVerde);
+   /*  display: block;
+    font-size: 16 px;
+    padding: 5 px ;
+    width: 30 px ;
+    height: 30 px ;
+    border: 1 px solid #39b54a ;
+    background-color: #FFF ;
+    border-radius: 50%;
+    position: absolute;
+    right: 20 px;
+    top: -15 px */
+}
+main section article{
+    margin: 10px 0;
+    background-color: white;
+}
+ main  h2{
+    font-size: 24px;
+    font-family: var(--FuentePrincipal);
+    color: var(--colorGrisOscuro);
+    margin: 0 15px 0  20px;
+   
+}
+main section article{
+    margin: 10px 0;
+    width: 100%;
+}
+main section .producto{
+    width: 100%;
+}
+main section article .precio{
+font-size: 18px;
+font-family: var(--FuentePrincipal);
+}
+main section article .camion,main section article .descuento{
+    color: var(--colorVerde);
+    /* font-size: 16px;
+    font-family: var(--FuentePrincipal); */
+}
+main p.descripcion,main p.descuento{
+    font-size: 16px;
+    font-family: var(--FuentePrincipal);
+}
+main section article h4{
+    display:none;
+    margin-top: 20px;
+    color: var(--colorGrisOscuro);
+
+}
+main section article{
+    box-shadow: 0px 0px 10px var(--colorGrisOscuro);
+    display: flex;
+    justify-content: space-between;
+  
+    flex-direction: column;
+    flex-wrap: wrap;  
+    margin: 10px 0;
+     width: 100%;
+     
+}
+
+
+/* Tablet */
+@media (min-width:461px){
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    main section{
+        display: flex;
+        flex-wrap: wrap; 
+        margin: 10px;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+    main section article{
+        box-shadow: 0px 0px 10px var(--colorGrisOscuro);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        margin: 10px 0;
+        width: 50%;
+         
+    }
+    main section .contenedor{
+        flex-grow: 1;
+    }
+
+    main section article h4{
+        display:block;
+    }
+    main .banner{
+        display: inline; 
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    main .banner img{
+    width: 100%;
+   /*  box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    }
+    main section article .contenedor{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        justify-content: space-between
+      }
+      main section h2{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+    
+
+/* Desktop */
+@media (min-width:769px){
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    main section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        margin: 10px;
+        width: 100%;
+        justify-content:space-between
+       
+        
+    }
+    main section article{
+        box-shadow: 0px 0px 10px var(--colorGrisOscuro);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+        margin: 10px 0 ;
+        width: 20%;
+         
+    }
+    main section .contenedor{
+        flex-grow: 1;
+    }
+
+    main section article h4{
+        display:block;
+    }
+    main .banner{
+        display: inline; 
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    main .banner img{
+    width: 100%;
+   /*  box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    }
+    main section article .contenedor{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        justify-content: space-between
+      }
+      main section h2{
+        flex-direction: column;
+        flex-grow: 1;
+    }
+  }
+}    

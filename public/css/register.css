@@ -1,0 +1,67 @@
+.register{
+    width: 400px;
+    margin: 0 auto;
+    
+}
+.register  h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.register .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+}
+.register  .container label{
+    margin-bottom: 5px;
+}
+
+.register  .container input{
+    padding: 4px;/* permite agrandar o achicar a gusto la barra para colocar el nombre */
+    margin-top: 4px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: var(--colorGrisClaro);
+    border-radius: 3px;
+    border-style: none;
+    color: var(--colorGrisOscuro);
+    font-style: italic;
+}
+
+
+.register   h4{
+    margin-top: 4px;
+}
+.register .container2{
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.register button{
+    padding: 2px;
+    background-color: white;
+    border-color: var(--colorGrisClaro);
+    border-width: 1px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    
+}
+
+.register select{
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: var(--colorGrisClaro);
+    border-radius: 3px;
+    border-style: none;
+}
+
+/* Tablet */
+@media (min-width:769px){
+    
+}
+
+/* Desktop */
+@media (min-width:1024px){}

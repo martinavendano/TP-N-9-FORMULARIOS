@@ -1,0 +1,15 @@
+@import url('https: //fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;600 &familia= Roboto:peso@300;400;500 & display=swap');
+
+:root{
+    /* Fuentes */
+    --FuentePrincipal:'Roboto',sans-serif;
+    --FuenteSecundaria:'Open Sans',sans-serif;
+    /* colores */
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+   
+}
